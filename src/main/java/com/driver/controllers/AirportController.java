@@ -33,7 +33,7 @@ public class AirportController {
         //Incase of a tie return the Lexicographically smallest airportName
          String ans=airportService.getLargestAirportName();
 
-       return null;
+       return ans;
     }
 
     @GetMapping("/get-shortest-time-travel-between-cities")

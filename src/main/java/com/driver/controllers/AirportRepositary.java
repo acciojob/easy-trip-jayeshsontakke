@@ -103,7 +103,7 @@ public class AirportRepositary {
         return "FAILURE";
     }
     public String cancelATicket(int flightId, int passengerId){
-        List<Integer> passengers = flightToPassengerDb.get(flightId);git
+        List<Integer> passengers = flightToPassengerDb.get(flightId);
         if(passengers == null){
             return "FAILURE";
         }

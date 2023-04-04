@@ -147,6 +147,6 @@ public class AirportRepositary {
         int fixedFare = 3000*noOfPeopleBooked;
         int totalFare = variableFare + fixedFare;
 
-        return totalFare+50;
+        return totalFare-50;
     }
 }
